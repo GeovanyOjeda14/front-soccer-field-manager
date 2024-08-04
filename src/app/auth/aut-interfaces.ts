@@ -1,0 +1,12 @@
+export interface LoginData {
+  username: string;
+  password: string;
+}
+
+export interface RegisterData {
+  username: string;
+  password: string;
+  email: string;
+  accountType: 'admin' | 'user';
+  google: boolean
+}
